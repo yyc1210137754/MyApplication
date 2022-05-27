@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="主界面"
+        android:gravity="center"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btn_jsq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转到计算器" />
+
+    <TextView
+        android:id="@+id/txt_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="个人信息：姚一川 - 计科GT2101 - 2021077094"
+        android:textSize="18sp" />
+
+</LinearLayout>
